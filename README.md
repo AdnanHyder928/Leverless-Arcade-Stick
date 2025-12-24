@@ -21,5 +21,9 @@ I am still working on the schematic portion and have not yet started with the PC
 <img width="825" height="843" alt="image" src="https://github.com/user-attachments/assets/4d390243-9296-4354-b838-729570924607" />
 <p>I also connected a 16MHz crystal to the ATMega32U4 schematic for removing any sort of delay with the input of the buttons.</p>
 
+<h1>Case Layout Updated (2D View)</h1>
+<img width="1487" height="716" alt="image" src="https://github.com/user-attachments/assets/39c40c93-4953-4c47-b3fc-943a0326f5da" />
+
+
 
 
