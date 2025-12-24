@@ -7,7 +7,8 @@ I am still working on the schematic portion and have not yet started with the PC
 
 
 <h1 align="center">Initial Case Design (AutoCAD)</h1>
-<img width="1576" height="628" alt="image" src="https://github.com/user-attachments/assets/acbb8e72-ee77-4a69-8493-29447ff10b99" />
+<img width="1787" height="736" alt="image" src="https://github.com/user-attachments/assets/ec949ba2-e0cb-4a42-adc5-4f4cca3e90c3" />
+
 
 
 
