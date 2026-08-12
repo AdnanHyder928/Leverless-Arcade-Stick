@@ -1066,171 +1066,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Polyfuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Polyfuse_0_1"
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3104,6 +2939,12 @@
 		(uuid "e7e2b734-3286-40df-b04f-2f9c7f7e2301")
 	)
 	(junction
+		(at 204.47 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea81903b-9152-4d2c-b70a-747d58418fae")
+	)
+	(junction
 		(at 25.4 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3243,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 27.94) (xy 49.53 27.94)
+			(xy 44.45 27.94) (xy 63.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3603,16 +3444,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 49.53) (xy 207.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "397d086d-5750-42fa-8a5b-7d6c9cc26e10")
-	)
-	(wire
-		(pts
 			(xy 25.4 184.15) (xy 25.4 193.04)
 		)
 		(stroke
@@ -3693,6 +3524,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 49.53) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e140b6-a518-481e-bb6c-475b6ffeba71")
+	)
+	(wire
+		(pts
 			(xy 201.93 87.63) (xy 201.93 82.55)
 		)
 		(stroke
@@ -3740,6 +3581,16 @@
 			(type default)
 		)
 		(uuid "5027aa0d-dc0d-4b75-9d83-3ccac61886b8")
+	)
+	(wire
+		(pts
+			(xy 204.47 31.75) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511bf343-a2c5-4ed8-90f3-7d3ed87a6341")
 	)
 	(wire
 		(pts
@@ -4053,16 +3904,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 27.94) (xy 63.5 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "908772d5-486e-4429-8e8f-dd47c74c9ac1")
-	)
-	(wire
-		(pts
 			(xy 196.85 53.34) (xy 209.55 53.34)
 		)
 		(stroke
@@ -4120,6 +3961,16 @@
 			(type default)
 		)
 		(uuid "97ea0cae-5e04-459d-a047-21d2eeab5bde")
+	)
+	(wire
+		(pts
+			(xy 224.79 34.29) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd6d8f0-9bc2-4ee5-be47-350c8696bce6")
 	)
 	(wire
 		(pts
@@ -4183,16 +4034,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 49.53) (xy 207.01 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18d9d75-65b2-408e-8efd-7fc3c81c630f")
-	)
-	(wire
-		(pts
 			(xy 50.8 179.07) (xy 50.8 184.15)
 		)
 		(stroke
@@ -4220,16 +4061,6 @@
 			(type default)
 		)
 		(uuid "b28e0a66-3a78-4011-bf9d-98bc0e3ec699")
-	)
-	(wire
-		(pts
-			(xy 207.01 38.1) (xy 207.01 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4966d20-00c6-4333-9571-3c458be9e249")
 	)
 	(wire
 		(pts
@@ -4520,6 +4351,16 @@
 			(type default)
 		)
 		(uuid "e93fe847-ee60-4220-83a0-e171ae76ab0b")
+	)
+	(wire
+		(pts
+			(xy 224.79 49.53) (xy 224.79 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd681a8-93f9-4ef1-b72d-119080358f65")
 	)
 	(wire
 		(pts
@@ -5469,7 +5310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 62.23 31.242 90)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +5468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 163.068 90)
 			(hide yes)
 			(show_name no)
@@ -5706,7 +5547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 138.938 90)
 			(hide yes)
 			(show_name no)
@@ -5785,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 194.818 90)
 			(hide yes)
 			(show_name no)
@@ -5864,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -5943,7 +5784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -6023,7 +5864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 196.85 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -6261,7 +6102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 196.85 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -6504,7 +6345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.71 75.692 90)
 			(hide yes)
 			(show_name no)
@@ -6713,7 +6554,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 43.18 180)
+		(at 204.47 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6723,7 +6564,7 @@
 		(dnp no)
 		(uuid "6ca211d1-dfab-4827-bc5b-56e78bc97aa3")
 		(property "Reference" "R17"
-			(at 204.724 43.18 90)
+			(at 202.184 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6733,7 +6574,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 207.01 42.926 90)
+			(at 204.47 27.686 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6742,8 +6583,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 208.788 43.18 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 206.248 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6754,7 +6595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 43.18 0)
+			(at 204.47 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6765,7 +6606,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 43.18 0)
+			(at 204.47 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6902,7 +6743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 175.768 90)
 			(hide yes)
 			(show_name no)
@@ -6981,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 217.17 81.5848 0)
 			(hide yes)
 			(show_name no)
@@ -7061,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 33.02 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7185,7 +7026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 62.23 33.782 90)
 			(hide yes)
 			(show_name no)
@@ -7267,7 +7108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 272.0848 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7394,87 +7235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 53.34 27.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9744379c-1a4d-4db7-9a29-d3f12e7096d0")
-		(property "Reference" "F1"
-			(at 53.34 21.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 53.34 24.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 53.34 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b61e3f16-4734-4f0f-9688-6d3b1d3e9375")
-		)
-		(pin "2"
-			(uuid "978b4e4a-c6c1-4ace-ab21-5b3bba0c97b3")
-		)
-		(instances
-			(project "flatbox"
-				(path "/b3e837c1-eb47-453e-9876-e7f92f082e13"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 41.91 137.16 0)
 		(unit 1)
@@ -7586,7 +7346,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -7743,7 +7503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.71 73.152 90)
 			(hide yes)
 			(show_name no)
@@ -7825,7 +7585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 249.2248 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7874,6 +7634,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 204.47 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b40a46a7-f684-4bfb-bcbd-e10cd1755e26")
+		(property "Reference" "SW11"
+			(at 197.612 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 199.644 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 204.47 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac1e8997-5adb-4877-a543-045c04030c15")
+		)
+		(pin "2"
+			(uuid "59aea413-e5ca-4f90-a029-5f27514d8c00")
+		)
+		(instances
+			(project "flatbox"
+				(path "/b3e837c1-eb47-453e-9876-e7f92f082e13"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b580e772-c30e-4301-a9ea-37b7264355eb")
+		(property "Reference" "#PWR021"
+			(at 204.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "155e15be-3c56-4f31-a8f8-0e7982c11155")
+		)
+		(instances
+			(project "flatbox"
+				(path "/b3e837c1-eb47-453e-9876-e7f92f082e13"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 261.62 30.48 180)
 		(unit 1)
@@ -7907,7 +7825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 260.6548 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7957,7 +7875,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 38.1 0)
+		(at 204.47 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7965,10 +7883,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "babf347e-6e80-4c59-baba-5902cc6c7ad3")
 		(property "Reference" "#PWR024"
-			(at 207.01 41.91 0)
+			(at 204.47 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7979,7 +7896,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 33.02 0)
+			(at 204.216 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7989,7 +7906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 38.1 0)
+			(at 204.47 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +7917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 38.1 0)
+			(at 204.47 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,7 +7928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 38.1 0)
+			(at 204.47 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +7981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -8778,7 +8695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 185.928 90)
 			(hide yes)
 			(show_name no)
@@ -8934,7 +8851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 150.368 90)
 			(hide yes)
 			(show_name no)
