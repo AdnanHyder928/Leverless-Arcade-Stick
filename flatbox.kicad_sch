@@ -7,6 +7,7 @@
 	(title_block
 		(title "FlatBox")
 		(date "2025-10-12")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -2741,6 +2742,12 @@
 		(uuid "2926504b-92b1-488d-b406-56edd855d8e4")
 	)
 	(junction
+		(at 246.38 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2baca164-1582-43d9-815a-ceb70c085435")
+	)
+	(junction
 		(at 50.8 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2763,12 +2770,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c9b3aad-2513-4b88-ab56-2163bbdccf99")
-	)
-	(junction
-		(at 246.38 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43735c71-fe37-4e37-a632-cbcdec718314")
 	)
 	(junction
 		(at 67.31 184.15)
@@ -2801,7 +2802,7 @@
 		(uuid "51c12c23-a1d0-40ee-8db9-99266069c821")
 	)
 	(junction
-		(at 261.62 34.29)
+		(at 261.62 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5348becd-50b3-44fb-ad44-fcc819865836")
@@ -2843,7 +2844,7 @@
 		(uuid "5fb0631e-dfc4-4a14-a370-9a2fb3cf812f")
 	)
 	(junction
-		(at 246.38 26.67)
+		(at 246.38 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7178e86c-df61-4ff5-b6a4-b0604344c763")
@@ -2891,7 +2892,7 @@
 		(uuid "a0438f81-5f91-4e68-8b9a-9f9617160eee")
 	)
 	(junction
-		(at 273.05 34.29)
+		(at 273.05 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6c8b904-78cb-4d79-bf93-e614d9a9507c")
@@ -2951,7 +2952,7 @@
 		(uuid "eb73da54-fb4a-441f-aa27-ead1b886c7f6")
 	)
 	(junction
-		(at 250.19 26.67)
+		(at 250.19 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee509b78-0936-4986-8247-969fcbed2358")
@@ -2981,7 +2982,7 @@
 		(uuid "fdb3b474-824d-4910-b21e-5fdcb301be69")
 	)
 	(junction
-		(at 261.62 26.67)
+		(at 261.62 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff18f834-5a0c-4439-b473-92db108fb244")
@@ -3354,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 34.29) (xy 250.19 34.29)
+			(xy 261.62 39.37) (xy 250.19 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3614,7 +3615,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 26.67) (xy 246.38 41.91)
+			(xy 246.38 31.75) (xy 246.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3924,7 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 26.67) (xy 261.62 26.67)
+			(xy 273.05 31.75) (xy 261.62 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4014,7 +4015,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 34.29) (xy 261.62 34.29)
+			(xy 273.05 39.37) (xy 261.62 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4094,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 26.67) (xy 246.38 26.67)
+			(xy 250.19 31.75) (xy 246.38 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4214,7 +4215,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 26.67) (xy 250.19 26.67)
+			(xy 261.62 31.75) (xy 250.19 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7076,7 +7077,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 273.05 30.48 180)
+		(at 273.05 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7087,7 +7088,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f0cc4c6-65de-469a-866c-52d39aa0dd1f")
 		(property "Reference" "C6"
-			(at 276.86 29.2099 0)
+			(at 276.86 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7098,7 +7099,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 276.86 31.7499 0)
+			(at 276.86 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7109,7 +7110,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 272.0848 26.67 0)
+			(at 272.0848 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7120,7 +7121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 30.48 0)
+			(at 273.05 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7131,7 +7132,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 273.05 30.48 0)
+			(at 273.05 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7396,7 +7397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 34.29 0)
+		(at 273.05 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7407,7 +7408,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3daa781-f1e9-4225-8280-92f3e08d686c")
 		(property "Reference" "#PWR017"
-			(at 273.05 40.64 0)
+			(at 273.05 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7418,7 +7419,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 39.37 0)
+			(at 273.05 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7428,7 +7429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 34.29 0)
+			(at 273.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7439,7 +7440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 34.29 0)
+			(at 273.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +7451,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 34.29 0)
+			(at 273.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7553,7 +7554,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 250.19 30.48 180)
+		(at 250.19 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7564,7 +7565,7 @@
 		(fields_autoplaced yes)
 		(uuid "af60c6a9-c767-4403-918c-71f308a52675")
 		(property "Reference" "C4"
-			(at 254 29.2099 0)
+			(at 254 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7575,7 +7576,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 254 31.7499 0)
+			(at 254 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7586,7 +7587,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 249.2248 26.67 0)
+			(at 249.2248 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7597,7 +7598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 30.48 0)
+			(at 250.19 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7608,7 +7609,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 250.19 30.48 0)
+			(at 250.19 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,7 +7794,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 261.62 30.48 180)
+		(at 261.62 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7804,7 +7805,7 @@
 		(fields_autoplaced yes)
 		(uuid "b70c5bf1-f2ab-4513-8fd4-0dc1155d1daf")
 		(property "Reference" "C5"
-			(at 265.43 29.2099 0)
+			(at 265.43 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7815,7 +7816,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 265.43 31.7499 0)
+			(at 265.43 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7826,7 +7827,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 260.6548 26.67 0)
+			(at 260.6548 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7837,7 +7838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 30.48 0)
+			(at 261.62 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7848,7 +7849,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 261.62 30.48 0)
+			(at 261.62 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8194,7 +8195,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 246.38 26.67 0)
+		(at 246.38 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8205,7 +8206,7 @@
 		(fields_autoplaced yes)
 		(uuid "cccee265-81be-47a8-bfc9-0b4380b7604f")
 		(property "Reference" "#PWR025"
-			(at 246.38 30.48 0)
+			(at 246.38 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8217,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 246.38 21.59 0)
+			(at 246.38 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8226,7 +8227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 26.67 0)
+			(at 246.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 26.67 0)
+			(at 246.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8248,7 +8249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 246.38 26.67 0)
+			(at 246.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
