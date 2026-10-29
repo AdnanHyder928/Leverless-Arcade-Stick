@@ -9358,7 +9358,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 184.15 90)
+		(at 55.88 184.15 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9378,7 +9379,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 56.134 184.15 90)
+			(at 55.626 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
